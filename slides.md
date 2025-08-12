@@ -173,12 +173,11 @@ What was learnt from those previous failures?<br>
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="22" fill="#eadfcb">Impacty</text>
 
-  <text x="-70" y="330"
-        transform="rotate(-90,-70,330)"
-        text-anchor="middle"
+<g transform="translate(-70,330) rotate(-90)">
+  <text x="0" y="0" text-anchor="middle"
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="22" fill="#eadfcb">Likelihood</text>
-
+</g>
   <!-- outline -->
   <rect x="20" y="20" width="500" height="400" fill="none" stroke="#111" stroke-width="2"/>
 </svg>
