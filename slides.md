@@ -173,8 +173,8 @@ What was learnt from those previous failures?<br>
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="22" fill="#eadfcb">Impact</text>
 
-  <text x="-50" y="330"
-        transform="rotate(-90,-50,330)"
+  <text x="-70" y="330"
+        transform="rotate(-90,-70,330)"
         text-anchor="middle"
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="22" fill="#eadfcb">Likelihood</text>
