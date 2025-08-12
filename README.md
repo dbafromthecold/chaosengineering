@@ -1,2 +1,13 @@
-# chaosengineering
+# Chaos Engineering
 Slides and resources for my Chaos Engineering session
+
+Sides are available here: -
+https://dbafromthecold.github.io/chaosengineering
+
+
+Resources: -
+https://principlesofchaos.org</br>
+https://chaostoolkit.org</br>
+https://github.com/dastergon/awesome-chaos-engineering</br>
+https://github.com/lucky-sideburn/KubeInvaders</br>
+
