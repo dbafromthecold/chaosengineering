@@ -116,48 +116,20 @@ What was learnt from those previous failures?<br>
 ---
 
 ### Likelihood-Impact Map
-TBD
+<!-- .slide: style="text-align: left;"> -->
+<img src="images/likelihoodImpactMap.png" style="float: center"/>
+
+---
+
+### Likelihood-Impact Map
+<!-- .slide: style="text-align: left;"> -->
+<img src="images/risk_matrix_transparent.png" style="float: center"/>
 
 ---
 
 ### Potential scenarios to test!
 <!-- .slide: style="text-align: left;"> -->
-
-<svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" style="background: transparent;" width="300">
-  <!-- Grid cells -->
-  <!-- Row 1 (top) -->
-  <rect x="64" y="40" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="112" y="40" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="160" y="40" width="48" height="48" fill="#ff0000" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="208" y="40" width="48" height="48" fill="#ff0000" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  
-  <!-- Row 2 -->
-  <rect x="64" y="88" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="112" y="88" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="160" y="88" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="208" y="88" width="48" height="48" fill="#ff0000" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  
-  <!-- Row 3 -->
-  <rect x="64" y="136" width="48" height="48" fill="#00ff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="112" y="136" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="160" y="136" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="208" y="136" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  
-  <!-- Row 4 (bottom) -->
-  <rect x="64" y="184" width="48" height="48" fill="#00ff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="112" y="184" width="48" height="48" fill="#00ff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="160" y="184" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  <rect x="208" y="184" width="48" height="48" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
-  
-  <!-- Outer border -->
-  <rect x="64" y="40" width="192" height="192" fill="none" stroke="#333" stroke-width="2"/>
-  
-  <!-- Y-axis label (centered on Y-axis) -->
-  <text x="24" y="136" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#eadfcb" transform="rotate(-90, 24, 136)">Likelihood</text>
-  
-  <!-- X-axis label -->
-  <text x="160" y="256" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#eadfcb">Impact</text>
-</svg>
+TBD
 
 ---
 
