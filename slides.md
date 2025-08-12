@@ -117,68 +117,40 @@ What was learnt from those previous failures?<br>
 
 ### Likelihood-Impact Map
 
-<!-- Risk matrix (4x5) as inline SVG -->
-<svg viewBox="-100 0 660 480" width="560" height="480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Risk matrix">
-  <!-- grid cells: 4 rows (top→bottom), 5 cols (left→right) -->
-  <!-- cell size -->
-  <defs><rect id="cell" width="100" height="100" /></defs>
-
-  <!-- row 1 (top) -->
-  <use href="#cell" x="20"  y="20"  fill="#fff000"/>
-  <use href="#cell" x="120" y="20"  fill="#fff000"/>
-  <use href="#cell" x="220" y="20"  fill="#fff000"/>
-  <use href="#cell" x="320" y="20"  fill="#e31b23"/>
-  <use href="#cell" x="420" y="20"  fill="#e31b23"/>
-
-  <!-- row 2 -->
-  <use href="#cell" x="20"  y="120" fill="#fff000"/>
-  <use href="#cell" x="120" y="120" fill="#fff000"/>
-  <use href="#cell" x="220" y="120" fill="#fff000"/>
-  <use href="#cell" x="320" y="120" fill="#fff000"/>
-  <use href="#cell" x="420" y="120" fill="#e31b23"/>
-
-  <!-- row 3 -->
-  <use href="#cell" x="20"  y="220" fill="#00c853"/>
-  <use href="#cell" x="120" y="220" fill="#fff000"/>
-  <use href="#cell" x="220" y="220" fill="#fff000"/>
-  <use href="#cell" x="320" y="220" fill="#fff000"/>
-  <use href="#cell" x="420" y="220" fill="#fff000"/>
-
-  <!-- row 4 (bottom) -->
-  <use href="#cell" x="20"  y="320" fill="#00c853"/>
-  <use href="#cell" x="120" y="320" fill="#00c853"/>
-  <use href="#cell" x="220" y="320" fill="#fff000"/>
-  <use href="#cell" x="320" y="320" fill="#fff000"/>
-  <use href="#cell" x="420" y="320" fill="#fff000"/>
-
-  <!-- grid lines -->
-  <g fill="none" stroke="#555" stroke-dasharray="4 6" opacity="0.5">
-    <!-- verticals -->
-    <path d="M20 20 V420"/>
-    <path d="M120 20 V420"/>
-    <path d="M220 20 V420"/>
-    <path d="M320 20 V420"/>
-    <path d="M420 20 V420"/>
-    <path d="M520 20 V420"/>
-    <!-- horizontals -->
-    <path d="M20 20 H520"/>
-    <path d="M20 120 H520"/>
-    <path d="M20 220 H520"/>
-    <path d="M20 320 H520"/>
-    <path d="M20 420 H520"/>
-  </g>
-
-  <!-- axes -->
-   <text x="270" y="460" text-anchor="middle"
-        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="22" fill="#eadfcb">Impact</text>
-
-<text x="-100" y="240" text-anchor="middle" 
-      font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-      font-size="22" fill="#eadfcb">Likelihood</text>
-
-  <!-- outline -->
-  <rect x="20" y="20" width="500" height="400" fill="none" stroke="#111" stroke-width="2"/>
+<svg viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid cells -->
+  <!-- Row 1 (top) -->
+  <rect x="80" y="50" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="140" y="50" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="200" y="50" width="60" height="60" fill="#ff0000" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="260" y="50" width="60" height="60" fill="#ff0000" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Row 2 -->
+  <rect x="80" y="110" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="140" y="110" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="200" y="110" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="260" y="110" width="60" height="60" fill="#ff0000" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Row 3 -->
+  <rect x="80" y="170" width="60" height="60" fill="#00ff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="140" y="170" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="200" y="170" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="260" y="170" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Row 4 (bottom) -->
+  <rect x="80" y="230" width="60" height="60" fill="#00ff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="140" y="230" width="60" height="60" fill="#00ff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="200" y="230" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  <rect x="260" y="230" width="60" height="60" fill="#ffff00" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Outer border -->
+  <rect x="80" y="50" width="240" height="240" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Y-axis label (centered on Y-axis) -->
+  <text x="30" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" transform="rotate(-90, 30, 170)">Likelihood</text>
+  
+  <!-- X-axis label -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Impact</text>
 </svg>
 
 ---
