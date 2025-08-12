@@ -169,9 +169,9 @@ What was learnt from those previous failures?<br>
   </g>
 
   <!-- axes -->
-   <text x="380" y="530" text-anchor="middle"
+   <text x="380" y="460" text-anchor="middle"
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="22" fill="#eadfcb">Impact</text>
+        font-size="22" fill="#eadfcb">Impacty</text>
 
   <text x="-70" y="330"
         transform="rotate(-90,-70,330)"
