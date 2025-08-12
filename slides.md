@@ -173,7 +173,7 @@ What was learnt from those previous failures?<br>
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="22" fill="#eadfcb">Impact</text>
 
-<text x="0" y="240"
+<text x="-40" y="240"
       style="writing-mode: vertical-rl; glyph-orientation-vertical: 0;"
       text-anchor="middle" font-size="22" fill="#eadfcb">Likelihood</text>
 
