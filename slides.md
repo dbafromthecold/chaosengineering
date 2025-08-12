@@ -123,7 +123,7 @@ What was learnt from those previous failures?<br>
 
 ### Likelihood-Impact Map
 <!-- .slide: style="text-align: left;"> -->
-<img src="images/likelihood_impact_matrix.png" style="float: center"/>
+<img src="images/likelihood_impact.png" style="float: center"/>
 
 ---
 
