@@ -117,68 +117,74 @@ What was learnt from those previous failures?<br>
 
 ### Likelihood-Impact Map
 
-<!-- Risk matrix (4x5) as inline SVG -->
-<svg viewBox="-100 0 660 480" width="560" height="480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Risk matrix">
-  <!-- grid cells: 4 rows (top→bottom), 5 cols (left→right) -->
-  <!-- cell size -->
-  <defs><rect id="cell" width="100" height="100" /></defs>
+<!-- Clean risk matrix SVG that renders correctly on GitHub Pages -->
+<svg viewBox="0 0 620 480" width="560" height="480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Risk matrix">
+  <!-- left margin so vertical label has room -->
+  <!-- grid origin -->
+  <g id="grid" transform="translate(80,20)">
+    <!-- cells -->
+    <defs><rect id="cell" width="100" height="100"/></defs>
 
-  <!-- row 1 (top) -->
-  <use href="#cell" x="20"  y="20"  fill="#fff000"/>
-  <use href="#cell" x="120" y="20"  fill="#fff000"/>
-  <use href="#cell" x="220" y="20"  fill="#fff000"/>
-  <use href="#cell" x="320" y="20"  fill="#e31b23"/>
-  <use href="#cell" x="420" y="20"  fill="#e31b23"/>
+    <!-- row 1 (top) -->
+    <use href="#cell" x="0"   y="0"   fill="#fff000"/>
+    <use href="#cell" x="100" y="0"   fill="#fff000"/>
+    <use href="#cell" x="200" y="0"   fill="#fff000"/>
+    <use href="#cell" x="300" y="0"   fill="#e31b23"/>
+    <use href="#cell" x="400" y="0"   fill="#e31b23"/>
 
-  <!-- row 2 -->
-  <use href="#cell" x="20"  y="120" fill="#fff000"/>
-  <use href="#cell" x="120" y="120" fill="#fff000"/>
-  <use href="#cell" x="220" y="120" fill="#fff000"/>
-  <use href="#cell" x="320" y="120" fill="#fff000"/>
-  <use href="#cell" x="420" y="120" fill="#e31b23"/>
+    <!-- row 2 -->
+    <use href="#cell" x="0"   y="100" fill="#fff000"/>
+    <use href="#cell" x="100" y="100" fill="#fff000"/>
+    <use href="#cell" x="200" y="100" fill="#fff000"/>
+    <use href="#cell" x="300" y="100" fill="#fff000"/>
+    <use href="#cell" x="400" y="100" fill="#e31b23"/>
 
-  <!-- row 3 -->
-  <use href="#cell" x="20"  y="220" fill="#00c853"/>
-  <use href="#cell" x="120" y="220" fill="#fff000"/>
-  <use href="#cell" x="220" y="220" fill="#fff000"/>
-  <use href="#cell" x="320" y="220" fill="#fff000"/>
-  <use href="#cell" x="420" y="220" fill="#fff000"/>
+    <!-- row 3 -->
+    <use href="#cell" x="0"   y="200" fill="#00c853"/>
+    <use href="#cell" x="100" y="200" fill="#fff000"/>
+    <use href="#cell" x="200" y="200" fill="#fff000"/>
+    <use href="#cell" x="300" y="200" fill="#fff000"/>
+    <use href="#cell" x="400" y="200" fill="#fff000"/>
 
-  <!-- row 4 (bottom) -->
-  <use href="#cell" x="20"  y="320" fill="#00c853"/>
-  <use href="#cell" x="120" y="320" fill="#00c853"/>
-  <use href="#cell" x="220" y="320" fill="#fff000"/>
-  <use href="#cell" x="320" y="320" fill="#fff000"/>
-  <use href="#cell" x="420" y="320" fill="#fff000"/>
+    <!-- row 4 (bottom) -->
+    <use href="#cell" x="0"   y="300" fill="#00c853"/>
+    <use href="#cell" x="100" y="300" fill="#00c853"/>
+    <use href="#cell" x="200" y="300" fill="#fff000"/>
+    <use href="#cell" x="300" y="300" fill="#fff000"/>
+    <use href="#cell" x="400" y="300" fill="#fff000"/>
 
-  <!-- grid lines -->
-  <g fill="none" stroke="#555" stroke-dasharray="4 6" opacity="0.5">
-    <!-- verticals -->
-    <path d="M20 20 V420"/>
-    <path d="M120 20 V420"/>
-    <path d="M220 20 V420"/>
-    <path d="M320 20 V420"/>
-    <path d="M420 20 V420"/>
-    <path d="M520 20 V420"/>
-    <!-- horizontals -->
-    <path d="M20 20 H520"/>
-    <path d="M20 120 H520"/>
-    <path d="M20 220 H520"/>
-    <path d="M20 320 H520"/>
-    <path d="M20 420 H520"/>
+    <!-- grid lines -->
+    <g fill="none" stroke="#555" stroke-dasharray="4 6" opacity="0.5">
+      <!-- verticals -->
+      <path d="M0 0 V400"/>
+      <path d="M100 0 V400"/>
+      <path d="M200 0 V400"/>
+      <path d="M300 0 V400"/>
+      <path d="M400 0 V400"/>
+      <path d="M500 0 V400"/>
+      <!-- horizontals -->
+      <path d="M0 0 H500"/>
+      <path d="M0 100 H500"/>
+      <path d="M0 200 H500"/>
+      <path d="M0 300 H500"/>
+      <path d="M0 400 H500"/>
+    </g>
+
+    <!-- outline -->
+    <rect x="0" y="0" width="500" height="400" fill="none" stroke="#111" stroke-width="2"/>
   </g>
 
-  <!-- axes -->
-   <text x="380" y="460" text-anchor="middle"
+  <!-- axis labels -->
+  <text x="330" y="460" text-anchor="middle"
         font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="22" fill="#eadfcb">Impact</text>
+        font-size="22" fill="#ffffff">Impact</text>
 
-<text x="-40" y="240"
-      style="writing-mode: vertical-rl; glyph-orientation-vertical: 0;"
-      text-anchor="middle" font-size="22" fill="#eadfcb">Likelihood</text>
-
-  <!-- outline -->
-  <rect x="20" y="20" width="500" height="400" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Likelihood: rotate a group and park it left of the grid, vertically centered -->
+  <g transform="translate(50,220) rotate(-90)">
+    <text x="0" y="0" text-anchor="middle"
+          font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+          font-size="22" fill="#ffffff">Likelihood</text>
+  </g>
 </svg>
 
 ---
