@@ -171,7 +171,7 @@ What was learnt from those previous failures?<br>
   <!-- axes -->
   <g font-family="sans-serif" font-size="18" fill="#111">
     <text x="250" y="470">Impact</text>
-    <text x="-20" y="330"
+    <text x="120" y="330"
         transform="rotate(-90,-50,330)"
         text-anchor="middle"
         font-family="sans-serif"
