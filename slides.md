@@ -169,14 +169,15 @@ What was learnt from those previous failures?<br>
   </g>
 
   <!-- axes -->
-  <g font-family="sans-serif" font-size="18" fill="#111">
-    <text x="250" y="470">Impact</text>
-    <text x="120" y="330"
+   <text x="380" y="530" text-anchor="middle"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="22" fill="#eadfcb">Impact</text>
+
+  <text x="-50" y="330"
         transform="rotate(-90,-50,330)"
         text-anchor="middle"
-        font-family="sans-serif"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="22" fill="#eadfcb">Likelihood</text>
-  </g>
 
   <!-- outline -->
   <rect x="20" y="20" width="500" height="400" fill="none" stroke="#111" stroke-width="2"/>
