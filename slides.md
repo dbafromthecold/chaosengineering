@@ -83,30 +83,6 @@ An overview of Chaos Engineering and how it can be applied
 
 ---
 
-### Environment Analysis
-
-<!-- .slide: style="text-align: left;"> -->
-<ul>
-<li class="fragment">Infrastructure</li>
-    <ul>
-        <li class="fragment">Cloud, private data centre?</li>
-    </ul>
-<li class="fragment">Applications</li>
-    <ul>
-        <li class="fragment">What's hitting our SQL instances?</li>
-    </ul>
-<li class="fragment">Monitoring</li>
-    <ul>
-        <li class="fragment">How are we going to analyse the results of our experiments?</li>
-    </ul>
-<li class="fragment">Social</li>
-    <ul>
-        <li class="fragment">How do people react to systems going down?</li>
-    </ul>
-</ul>
-
----
-
 ### Past Incident Analysis
 <!-- .slide: style="text-align: left;"> -->
 How has the system failed previously?<br>
@@ -117,21 +93,10 @@ What was learnt from those previous failures?<br>
 
 ### Likelihood-Impact Map
 <!-- .slide: style="text-align: left;"> -->
-<img src="images/likelihoodImpactMap.png" style="float: center"/>
-
----
-
-### Likelihood-Impactu Map
-<!-- .slide: style="text-align: left;"> -->
 
 <p align="center">
 <img src="images/likelihood_impact_matrix.png" style="float: center"/>
 </p>
----
-
-### Potential scenarios to test!
-<!-- .slide: style="text-align: left;"> -->
-TBD
 
 ---
 
@@ -171,4 +136,11 @@ Is there anything else that can be tested?
 
 ## Resources
 <!-- .slide: style="text-align: left;"> -->
-TBD
+<font size="6">
+<a href="https://github.com/dbafromthecold/chaosengineering">https://github.com/dbafromthecold/chaosengineering</a><br>
+</font>
+
+<p align="center">
+<img src="images/chaos_engineering_qr.png" />
+</p>
+
