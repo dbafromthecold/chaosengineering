@@ -141,6 +141,6 @@ Is there anything else that can be tested?
 </font>
 
 <p align="center">
-<img src="images/chaos_engineering_qr.png" />
+<img src="images/chaos-engineering-qr-code.png" />
 </p>
 
