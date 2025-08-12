@@ -116,7 +116,6 @@ What was learnt from those previous failures?<br>
 ---
 
 ### Likelihood-Impact Map
-<!-- .slide: style="text-align: left;"> -->
 
 <!-- Risk matrix (4x5) as inline SVG -->
 <svg viewBox="0 0 560 480" width="560" height="480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Risk matrix">
