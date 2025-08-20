@@ -44,7 +44,10 @@ An overview of Chaos Engineering and how it can be applied
 <!-- .slide: style="text-align: left;"> -->
 <ul>
 <li class="fragment">Breaking things in production!</li>
-<li class="fragment">Staging or Production?</li>
+<li class="fragment">Randomly causing outages without a hypothesis</li>
+<li class="fragment">A one-time test</li>
+<li class="fragment">Specific tooling</li>
+<li class="fragment">Only run in production</li>
 <ul>
 
 ---
@@ -83,6 +86,30 @@ An overview of Chaos Engineering and how it can be applied
 
 ---
 
+### Environment Analysis
+
+<!-- .slide: style="text-align: left;"> -->
+<ul>
+<li class="fragment">Infrastructure</li>
+    <ul>
+        <li class="fragment">Cloud, private data centre?</li>
+    </ul>
+<li class="fragment">Applications</li>
+    <ul>
+        <li class="fragment">What's hitting our SQL instances?</li>
+    </ul>
+<li class="fragment">Monitoring</li>
+    <ul>
+        <li class="fragment">How are we going to analyse the results of our experiments?</li>
+    </ul>
+<li class="fragment">Social</li>
+    <ul>
+        <li class="fragment">How do people react to systems going down?</li>
+    </ul>
+</ul>
+
+---
+
 ### Past Incident Analysis
 <!-- .slide: style="text-align: left;"> -->
 How has the system failed previously?<br>
@@ -109,7 +136,7 @@ Is there anything else that can be tested?
 
 ---
 
-## Example implementation
+# Example implementation
 
 ---
 
@@ -127,10 +154,6 @@ Is there anything else that can be tested?
 ### KubeInvaders
 
 <img src="images/KubeInvaders_75.png" style="float: center"/>
-
----
-
-# Demo
 
 ---
 
